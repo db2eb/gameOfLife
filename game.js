@@ -38,9 +38,7 @@ function draw(){
 			}
 		}
 	}
-
 	let next = make2DArray(cols,rows);
-
 	//compute next based on grid
 	for(let i=0;i<cols;i++){
 		for(let j=0;j<rows;j++){
@@ -72,14 +70,3 @@ function countNeighbors(grid,x,y){
 	sum -=grid[x][y];
 	return sum;
 }
-
-
-
-
-
-
-
-
-
-
-
